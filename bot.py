@@ -7,7 +7,7 @@ intents.message_content = True
 
 client = discord.Client(intents=intents)
 
-VIRUSTOTAL_API_KEY = '55edafdf1a535b5e81f348cb6c27a3c43bc37f38b091ae6cb72229a401ff6aeb'
+VIRUSTOTAL_API_KEY = 'VIRUS_TOTAL_API_KEY'
 MALICIOUS_THRESHOLD = 2
 REACTION_EMOJI = '⚠️'
 
@@ -47,5 +47,4 @@ async def on_message(message):
             await message.add_reaction(REACTION_EMOJI)
             break
 
-client.run('MTEyNDczODk4MzA4NDE4MzYxMw.GaoBQ6.pZ_E6qTpFjflPvhbAaoC4dTyETNHy7I8S-UkUg')
-#hhii
+client.run('DISCORD_BOT_TOKEN')
